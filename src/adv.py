@@ -22,7 +22,7 @@ earlier adventurers. The only exit is to the south."""),
 }
 
 
-# Link rooms together
+# Link rooms together test
 
 room['outside'].n_to = room['foyer']
 room['foyer'].s_to = room['outside']
